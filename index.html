@@ -22,47 +22,133 @@
                             <label for="change-hamburguer"></label>
                         </a>
                         <ul id="menu-list" class="menu-list">
-                            <li class="item"><a href="./index.html">Home</a></li>
                             <li class="item"><a href="./o-atelier.html">O Atelier</a></li>
+                            <li class="item"><a href="./os-servicos.html">Os Serviços</a></li>                            
+                            <li class="item item-logo">
+                                <a href="./index.html">
+                                    <img src="dist/images/atelier.png" alt="Atelier cabeleleiros">
+                                </a>
+                            </li>
                             <li class="item"><a href="./as-fotos.html">As Fotos</a></li>
-                            <li class="item"><a href="./os-servicos.html">Os Serviços</a></li>
                             <li class="item"><a href="./as-promocoes.html">As Promoçoes</a></li>
-                            <li class="item"><a href="./contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </div>
             </header>
-            <section id="banner" class="container-fluid"></section>
-            <section class="content-about-bg">
+            <section id="banner" class="container-fluid top-margin">
+                <!-- content -->
+            </section>
+            <section class="content-about">
                 <div class="container">
-                    <div class="content-about">
-                        <div class="about">
-                            <span class="titulo-featured">bem vindo ao</span>
-                            <h1 class="titulo">atelier cabelereiros</h1>
-                            <p>Criado a mais de 8 anos, o Salão AtelierCabeleireiros é um dos únicos salões de beleza do estado de SP que oferece 100% de garantia dos serviços realizados: isso significa que confiamos muito em nossos profissionais e caso aconteça de você não gostar de algum serviço realizado, não precisa pagar.</p>
-                            <p>O Atelier oferece os melhores serviços de beleza, saúde e estética, passando por maquiagem, design de sobrancelhas, depilação entre outros 30 tipos de serviços oferecidos pelos nossos profissionais. Veja nossos serviços.</p>
-                            <a href="./o-atelier.html" class="btn btn-primary">Sobre nós</a>
-                        </div>
-                        <aside class="calendar">
-                            <span class="titulo-featured">+55 (11) 98765 - 4321</span>
-                            <h2 class="titulo">horários</h2>
-                            <ul class="times-list">
-                                <li class="schedules">Seg <span class="time">9:00 - 19:00</span></li>
-                                <li class="schedules">Ter <span class="time">9:00 - 19:00</span></li>
-                                <li class="schedules">Quar <span class="time">9:00 - 19:00</span></li>
-                                <li class="schedules">Quin <span class="time">9:00 - 19:00</span></li>
-                                <li class="schedules">Sex <span class="time">9:00 - 19:00</span></li>
-                                <li class="schedules">Sab <span class="time">12:00 - 21:00</span></li>
-                                <li class="schedules">Dom <span class="time">Fechado</span></li>
-                            </ul>
-                        </aside>
+                    <div class="welcome">
+                        <span class="featured-title">bem vindo ao</span>
+                        <h1 class="bigger-title">atelier cabelereiros</h1>
                     </div>
+                    <div class="about">
+                        <p>Criado a mais de 8 anos, o Salão Atelier Cabeleireiros está localizado na galeria do hipermercado Carrefour Sônia Maria zona norte e é referência em estética e cortes masculinos e femininos</p>
+                        <p>O Atelier oferece os melhores serviços de beleza, saúde e estética, passando por maquiagem, design de sobrancelhas, depilação entre outros tipos de serviços oferecidos pelos nossos profissionais.</p>
+                        <a href="./o-atelier.html" class="btn btn-primary">Sobre nós</a>
+                    </div>
+                </div>
+            </section>
+            <section class="content-flag-calender background-bar">
+                <div class="container">
+                    <div class="content-flag">
+                        <h2 class="bigger-title mid">promoções</h2>
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" class="active"><a href="javascript: void();" onclick="menu('1')" class="fa fa-birthday-cake">Aniversariantes</a></li>
+                            <li role="presentation" ><a href="javascript: void();" onclick="menu('2')" class="fa fa-calendar">Sorteio mensal</a></li>
+                            <li role="presentation"><a href="javascript: void();" onclick="menu('3')" class="fa fa-female">Dia da mulher</a></li>
+                        </ul>
+                        <div class="content-form_raffle background-white">
+                            <div id="conteudo1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos deserunt omnis voluptas tempore rerum, aspernatur dolore rem dolorem iusto est voluptate et, harum, magni esse sapiente! Sapiente itaque consequatur a!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis facilis rem, provident, voluptatum mollitia.</p>
+                                <form action="">
+                                    <fieldset>
+                                        <div class="content-input">
+                                            <input type="text" id="" class="form-control" placeholder="Nome" minlength="2" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="email" id="" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="number" id="" class="form-control" placeholder="Cep" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="text" id="" class="form-control" placeholder="Data Nascimento" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <buttom class="btn btn-primary" id="">Quero participar</buttom>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div id="conteudo2" style="display:none;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos deserunt omnis voluptas tempore rerum, aspernatur dolore rem dolorem iusto est voluptate et, harum, magni esse sapiente! Sapiente itaque consequatur a!</p>
+                                <form action="">
+                                    <fieldset>
+                                        <div class="content-input">
+                                            <input type="text" id="" class="form-control" placeholder="Nome" minlength="2" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="email" id="" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="number" id="" class="form-control" placeholder="Cep" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="text" id="" class="form-control" placeholder="Data Nascimento" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <buttom class="btn btn-primary" id="">Quero participar</buttom>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div id="conteudo3" style="display:none;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos deserunt omnis voluptas tempore rerum, aspernatur dolore rem dolorem iusto est voluptate et, harum, magni esse sapiente! Sapiente itaque consequatur a!</p>
+                                <form action="">
+                                    <fieldset>
+                                        <div class="content-input">
+                                            <input type="text" id="" class="form-control" placeholder="Nome" minlength="2" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="email" id="" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="number" id="" class="form-control" placeholder="Cep" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <input type="text" id="" class="form-control" placeholder="Data Nascimento" required>
+                                        </div>
+                                        <div class="content-input">
+                                            <buttom class="btn btn-primary" id="">Quero participar</buttom>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="calendar">
+                        <span class="titulo-featured">+55 (11) 98765 - 4321</span>
+                        <h2 class="titulo">horários</h2>
+                        <ul class="times-list">
+                            <li class="schedules">Seg <span class="time">9:00 - 19:00</span></li>
+                            <li class="schedules">Ter <span class="time">9:00 - 19:00</span></li>
+                            <li class="schedules">Quar <span class="time">9:00 - 19:00</span></li>
+                            <li class="schedules">Quin <span class="time">9:00 - 19:00</span></li>
+                            <li class="schedules">Sex <span class="time">9:00 - 19:00</span></li>
+                            <li class="schedules">Sab <span class="time">12:00 - 21:00</span></li>
+                            <li class="schedules">Dom <span class="time">Fechado</span></li>
+                        </ul>
+                    </aside>
                 </div>
             </section>
             <section class="content-services">
                 <div class="container">
-                    <span class="titulo-featured -centralized">conheça mais sobre nós</span>
-                    <h2 class="titulo -centralized">os serviços</h2>
+                    <span class="titulo-featured -centralized">Conheça nosso serviços e preços</span>
+                    <h2 class="titulo -centralized">nossos preços</h2>
                     <div class="recipe-services">
                         <div class="recipe-item">
                             <figure class="boxe-image">
@@ -70,7 +156,7 @@
                                 <figcaption class="texto-imagem">Serviço A</figcaption>
                             </figure>
                             <p class="texto-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit non quaerat consequuntur nobis nesciunt a, sit iste quia?</p>
-                            <a href="#" class="link-saibamais">Saiba mais</a>
+                            <a href="#" class="link-saibamais">Agendar horário</a>
                         </div>
                         <div class="recipe-item">
                             <figure class="boxe-image">
@@ -78,7 +164,7 @@
                                 <figcaption class="texto-imagem">Serviço B</figcaption>
                             </figure>
                             <p class="texto-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit non quaerat consequuntur nobis nesciunt a, sit iste quia?</p>
-                            <a href="#" class="link-saibamais">Saiba mais</a>
+                            <a href="#" class="link-saibamais">Agendar horário</a>
                         </div>
                         <div class="recipe-item">
                             <figure class="boxe-image">
@@ -86,7 +172,7 @@
                                 <figcaption class="texto-imagem">Serviço C</figcaption>
                             </figure>
                             <p class="texto-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit non quaerat consequuntur nobis nesciunt a, sit iste quia?</p>
-                            <a href="#" class="link-saibamais">Saiba mais</a>
+                            <a href="#" class="link-saibamais">Agendar horário</a>
                         </div>
                         <div class="recipe-item">
                             <figure class="boxe-image">
@@ -94,62 +180,101 @@
                                 <figcaption class="texto-imagem">Serviço D</figcaption>
                             </figure>
                             <p class="texto-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum suscipit non quaerat consequuntur nobis nesciunt a, sit iste quia?</p>
-                            <a href="#" class="link-saibamais">Saiba mais</a>
+                            <a href="#" class="link-saibamais">Agendar horário</a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="content-prices">
+            <section class="content-prices background-bar">
                 <div class="container">
                     <span class="titulo-featured -centralized">conheça nossos planos e preços</span>
                     <h2 class="titulo -centralized">nossos preços</h2>
                     <div class="services-card">
                         <ul class="card-list">
                             <li class="cards-items">
-                                <h2 class="service-name">Serviço A</h2>
+                                <h2 class="service-name">Coloração</h2>
                                 <span class="line-detail"></span>
-                                <p class="description">Small Detail for the awesome service</p>
-                                <p class="value">R$ 44.00</p>
+                                <p class="description">Masculino</p>
+                                <p class="value">R$ 70.00</p>
                             </li>
                             <li class="cards-items">
-                                <h2 class="service-name">Serviço B</h2>
+                                <h2 class="service-name">Corte</h2>
                                 <span class="line-detail"></span>
-                                <p class="description">Small Detail for the awesome service</p>
-                                <p class="value">R$ 120.00</p>
+                                <p class="description">Feminino</p>
+                                <p class="value">R$ 45.00</p>
+                            </li>
+                            <li class="cards-items">
+                                <h2 class="service-name">Corte infantil até 6 anos</h2>
+                                <span class="line-detail"></span>
+                                <p class="description">Unisex</p>
+                                <p class="value">R$ 30.00</p>
+                            </li>
+                            <li class="cards-items">
+                                <h2 class="service-name">Corte</h2>
+                                <span class="line-detail"></span>
+                                <p class="description">Masculino</p>
+                                <p class="value">R$ 35.00</p>
                             </li>
                         </ul>
                     </div>
                     <div class="services-card">
                         <ul class="card-list">
                             <li class="cards-items">
-                                <h2 class="service-name">Serviço C</h2>
+                                <h2 class="service-name">Hidratação argila branca</h2>
                                 <span class="line-detail"></span>
-                                <p class="description">Small Detail for the awesome service</p>
-                                <p class="value">R$ 44.00</p>
+                                <p class="description">Unisex</p>
+                                <p class="value">R$ 90.00</p>
                             </li>
                             <li class="cards-items">
-                                <h2 class="service-name">Serviço D</h2>
+                                <h2 class="service-name">Penteado apartir</h2>
                                 <span class="line-detail"></span>
-                                <p class="description">Small Detail for the awesome service</p>
-                                <p class="value">R$ 120.00</p>
+                                <p class="description">Feminino</p>
+                                <p class="value">R$ 90.00</p>
+                            </li>
+                            <li class="cards-items">
+                                <h2 class="service-name">Maquiagem a partir</h2>
+                                <span class="line-detail"></span>
+                                <p class="description">Feminino</p>
+                                <p class="value">R$ 70.00</p>
+                            </li>
+                            <li class="cards-items">
+                                <h2 class="service-name">Escova progressiva </h2>
+                                <span class="line-detail"></span>
+                                <p class="description">Unisex</p>
+                                <p class="value">R$ 190.00</p>
                             </li>
                         </ul>
                     </div>
                     <div class="services-card">
                         <ul class="card-list">
                             <li class="cards-items">
-                                <h2 class="service-name">Serviço E</h2>
+                                <h2 class="service-name">Mechas</h2>
                                 <span class="line-detail"></span>
-                                <p class="description">Small Detail for the awesome service</p>
-                                <p class="value">R$ 44.00</p>
+                                <p class="description">Unisex</p>
+                                <p class="value">R$ 180.00</p>
                             </li>
                             <li class="cards-items">
-                                <h2 class="service-name">Serviço F</h2>
+                                <h2 class="service-name">Pé</h2>
                                 <span class="line-detail"></span>
-                                <p class="description">Small Detail for the awesome service</p>
-                                <p class="value">R$ 120.00</p>
+                                <p class="description">Unisex</p>
+                                <p class="value">R$ 22.00</p>
+                            </li>
+                            <li class="cards-items">
+                                <h2 class="service-name">Mão</h2>
+                                <span class="line-detail"></span>
+                                <p class="description">Unisex</p>
+                                <p class="value">R$ 20.00</p>
+                            </li>
+                            <li class="cards-items">
+                                <h2 class="service-name">Sobrancelha</h2>
+                                <span class="line-detail"></span>
+                                <p class="description">Unisex</p>
+                                <p class="value">R$ 20.00</p>
                             </li>
                         </ul>
+                    </div>
+                    <div class="hold-button">
+                        <buttom class="btn btn-primary" id="">Saiba Mais</buttom>
                     </div>
                 </div>
             </section>
@@ -163,10 +288,54 @@
         <!-- inserir os scripts JavaScript logo abaixo deste comentário -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script>
-            $( "#change-hamburguer" ).click(function() {
-                $( "#menu-list" ).toggle( "slow", function() {
-                    // Animation complete
+            $(function() {
+                //Menu mobile
+                $( "#change-hamburguer" ).click(function() {
+                    $( "#menu-list" ).toggle( "slow", function() {
+                        // Animation complete
+                    });
                 });
+            });
+            
+            // menu flags
+            function menu(id)
+            {
+                for(i=1;i<=3;i++)
+                {
+                    var div = document.getElementById("conteudo"+i);
+
+                    if(i == id)
+                    
+                    {
+                        div.style.display = "block"
+                    }
+                    
+                    else
+                    
+                    {
+                        div.style.display = "none"
+                    }
+                }
+            }
+
+            // menu flags
+            // add, remove "active" class
+            var lista = $('.nav-tabs li');
+
+            lista.click(function(e){
+
+                lista.each(function(){
+
+                    if (this == e.currentTarget) {
+                
+                        $(this).toggleClass('active');
+                
+                    } else  {
+                        
+                        $(this).removeClass('active');
+                
+                    }
+                })
             });
         </script>
     </body>
