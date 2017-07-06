@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>Atelier | Contato</title>
+
+        <link rel="stylesheet" href="dist/css/styles.css">
+    </head>
+<body>
+    <section class="main">
+        <header class="navbar">
+            <div class="container">
+                <nav class="navbar-header">
+                    <a href="./index.html" class="brand">
+                        <img class="logo" src="dist/images/atelier.png" alt="Atelier cabeleleiros">
+                    </a>
+                    <input type="checkbox" id="change-hamburguer" />
+                    <a class="hamburguer" href="#">
+                        <span></span>
+                        <label for="change-hamburguer"></label>
+                    </a>
+                    <ul id="menu-list" class="menu-list">
+                        <li class="item"><a href="./o-atelier.html">O Atelier</a></li>
+                        <li class="item"><a href="./os-servicos.html">Os Serviços</a></li>                            
+                        <li class="item item-logo">
+                            <a href="./index.html">
+                                <img src="dist/images/atelier.png" alt="Atelier cabeleleiros">
+                            </a>
+                        </li>
+                        <li class="item"><a href="./as-fotos.html">As Fotos</a></li>
+                        <li class="item"><a href="./as-promocoes.html">As Promoçoes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="internal-bg top-margin">
+            <div class="container">
+                <h2 class="titulo">Contato</h2>
+            </div>
+        </section>
+        <section class="container content-contact">
+            <form action="#" class="form-contact">
+                <fieldset>
+                    <input type="text" id="" class="form-control" placeholder="Nome" minlength="2" required>
+                    <input type="email" id="" class="form-control" placeholder="Email" required>
+                    <input type="number" id="" class="form-control" placeholder="Telefone" required>
+                    <input type="text" id="" class="form-control" placeholder="Assunto" required>
+                    <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+                    <buttom class="btn btn-primary" id="">Enviar</buttom>
+                </fieldset>
+            </form>
+            <aside class="info-contact">
+                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vel dolores deserunt maxime soluta adipisci provident aliquam perferendis eos praesentium dolorem tenetur ducimus ut, aspernatur fuga voluptates tempora numquam enim ab sunt aliquid laboriosam temporibus fugiat earum amin!</p>
+                <div class="content-info">
+                    <p class="texto"><span class="icone glyphicon glyphicon-envelope"></span><a href="#" class="link-info">info@yoursite.com.br</a></p>
+                    <p class="texto"><span class="icone glyphicon glyphicon-earphone"></span><a href="#" class="link-info">+55 11 93333 3333</a></p>
+                    <p class="texto"><span class="icone glyphicon glyphicon-phone-alt"></span><a href="#" class="link-info">+55 11 3333 3333</a></p>
+                    <p class="texto"><span class="icone glyphicon glyphicon-briefcase"></span>Av Paulista 2000 SP.</p>
+                </div>
+                <ul class="list-social">
+                    <li class="item-social"><a href="#" title="Facebook" class="item-social-icone -facebook"></a></li>
+                    <li class="item-social"><a href="#" title="Twitter" class="item-social-icone -twitter"></a></li>
+                    <li class="item-social"><a href="#" title="Google plus" class="item-social-icone -gplus"></a></li>
+                    <li class="item-social"><a href="#" title="Reddit" class="item-social-icone -reddit"></a></li>
+                    <li class="item-social"><a href="#" title="Youtube" class="item-social-icone -youtube"></a></li>
+                    <li class="item-social"><a href="#" title="Behance" class="item-social-icone -behance"></a></li>
+                </ul>
+            </aside>
+        </section>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29257.6096451931!2d-46.66975155933737!3d-23.561216091423347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.+Paulista%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1495991996710" class="map-iframe" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+    </section>
+    <!-- inserir os scripts JavaScript logo abaixo deste comentário -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(function() {
+            //Menu mobile
+            $( "#change-hamburguer" ).click(function() {
+                $( "#menu-list" ).toggle( "slow", function() {
+                    // Animation complete
+                });
+            });
+
+            //validation
+
+        });
+    </script>
+</body>
+</html>
